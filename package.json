@@ -1,0 +1,12 @@
+{
+  "name": "pniehaus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "browser-sync start --server \"dist\" --files \"dist\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
