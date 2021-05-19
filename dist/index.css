@@ -10,21 +10,69 @@ body {
 
 a {
   text-decoration: none;
+  color: darkblue;
+}
+a:hover {
+  color: deepskyblue;
+}
+footer {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+footer ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer li {
+}
+footer a {
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75rem;
+}
+footer a:hover {
+  color: cornflowerblue;
+}
+footer img {
+  padding-right: 0.25rem;
+}
+footer i {
+  font-size: 21px;
+  padding: 0 0.35rem;
+}
+.hamburger {
+  display: none;
 }
 .navlogo a {
   color: #333;
 }
+.navbox {
+  padding: 1rem;
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+}
 .navbar {
   list-style: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
-  padding: 1rem 1.5rem;
 }
 .navbutton {
+  padding-left: 1rem;
 }
 .navbutton a {
   color: silver;
+  font-size: 1.2rem;
+  transition: 100ms linear;
 }
 .navbutton a:hover {
   color: #333;
@@ -33,11 +81,74 @@ a {
   color: black;
 }
 .container {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 420px 1fr;
+  justify-items: center;
   padding: 1rem;
+}
+.body {
+  max-width: 990px;
+  margin: 0 auto;
 }
 img {
   max-width: 100%;
   height: auto;
+}
+article p {
+  padding-left: 0.5rem;
+  padding-bottom: 1.2rem;
+  max-width: 75ch;
+}
+
+@media only screen and (max-width: 600px) {
+  .hamburger {
+    display: block;
+  }
+  .navbox {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .navbar {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  article p {
+    padding-left: 0;
+  }
+  footer ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: left;
+    justify-items: start;
+    width: 100%;
+    padding: 0;
+  }
+  footer li {
+    padding: 0;
+    width: 100%;
+  }
+  footer a {
+    padding: 0.5rem 0;
+    display: block;
+    width: 100%;
+  }
+  footer i {
+    padding-left: 0;
+  }
+  .navbutton a {
+    display: block;
+    width: 100%;
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+  }
+  article {
+    padding-top: 1.5rem;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
