@@ -1,7 +1,9 @@
 .list {
   list-style-type: none;
+  list-style-position: outside;
   line-height: 1.4rem;
   padding-bottom: 1rem;
+  width: 100%;
 }
 .list li {
   border-bottom: 1px solid #efefef;
@@ -9,4 +11,28 @@
   padding-top: 0.75rem;
   padding-left: 2.5rem;
   max-width: 75ch;
+}
+
+.status {
+  font-style: italic;
+  font-size: 0.8rem;
+  color: #6600cc;
+}
+.status::before {
+  content: "status: ";
+}
+.title {
+  font-size: 1.15rem;
+}
+.authors {
+  font-size: 0.8rem;
+}
+.description {
+  font-size: 1rem;
+}
+sup {
+  font-size: 0.7rem;
+}
+section {
+  width: 100%;
 }

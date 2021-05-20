@@ -1,0 +1,11 @@
+.company {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 600px) {
+  .company {
+    grid-template-columns: 1fr;
+  }
+}

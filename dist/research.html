@@ -3,8 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Economic research by Paul Niehaus"/>
-
+    <meta name="description" content="Economic Research by Paul Niehaus" />
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/research.css" />
     <script
@@ -16,14 +15,19 @@
   <body>
     <div class="body">
       <nav role="navigation" class="navbox">
-        <h1 class="navlogo">
-          <a href="/"> Paul Niehaus </a>
-        </h1>
+        <header>
+          <h1 class="navlogo">
+            <a href="/"> Paul Niehaus </a>
+          </h1>
+          <button class="hamburger" aria-label="toggle menu">
+            <i class="fas fa-bars"></i>
+          </button>
+        </header>
         <ul class="navbar">
-          <li class="navbutton active">
+          <li class="navbutton">
             <a href="/">about</a>
           </li>
-          <li class="navbutton">
+          <li class="navbutton active">
             <a href="/research.html">research</a>
           </li>
           <li class="navbutton">
@@ -33,36 +37,163 @@
       </nav>
       <main>
         <div class="container">
-          <article>
-            <p>
-            <section>
-              <h1>
-              recent working papers
-              </h1>
-              <ul class="list">
-                <li>
-<a href="files/papers/ubi_covid.pdf">
-                  Effects of a Universal Basic Income during the pandemic</a> (<a href="files/papers/ubi_covid.bib">.bib</a>). With Abhijit Banerjee, Michael Faye, Alan Krueger, and Tavneet Suri. How is UBI effecting the lives of low-income communities in Kenya during the COVID-19 pandemic?
-                </li>
-                <li>
-General equilibrium effects of cash transfers: experimental evidence from Kenya (.bib). Revise and resubmit, Econometrica. With Dennis Egger, Johannes Haushofer, Ted Miguel and Michael Walker
-How does an inflow of ~15% of GDP affect a poor rural economy?
+          <section>
+            <h2>recent working papers</h2>
+            <ul class="list">
+              <li>
+                <article>
+                  <p class="title">
+                    <a href="papers/ubi_covid.pdf">
+                      Effects of a Universal Basic Income during the
+                      pandemic.</a
+                    >
+                    <sup> (<a href="papers/ubi_covid.bib">.bib</a>)</sup>
+                  </p>
+                  <p class="authors">
+                    With
+                    <a href="https://economics.mit.edu/faculty/banerjee"
+                      >Abhijit Banerjee</a
+                    >,
+                    <a href="https://www.linkedin.com/in/michael-faye-6518893/"
+                      >Michael Faye</a
+                    >,
+                    <a href="https://en.wikipedia.org/wiki/Alan_Krueger"
+                      >Alan Krueger</a
+                    >, and
+                    <a
+                      href="https://mitsloan.mit.edu/faculty/directory/tavneet-suri"
+                      >Tavneet Suri</a
+                    >.
+                  </p>
+                  <p class="description">
+                    How is UBI effecting the lives of low-income communities in
+                    Kenya during the COVID-19 pandemic?
+                  </p>
+                </article>
+              </li>
+              <li>
+                <article>
+                  <p class="title">
+                    <a href="papers/cash_transfers_ge.pdf"
+                      >General equilibrium effects of cash transfers:
+                      experimental evidence from Kenya.</a
+                    >
+                    <sup>
+                      (<a href="papers/cash_transfers_ge.bib">.bib</a>)</sup
+                    >
+                  </p>
+                  <p class="status">Revise and resubmit, Econometrica.</p>
+                  <p class="authors">
+                    With
+                    <a href="https://www.econ.berkeley.edu/grad/pro9452"
+                      >Dennis Egger</a
+                    >,
+                    <a href="http://www.princeton.edu/haushofer/"
+                      >Johannes Haushofer</a
+                    >,
+                    <a href="http://emiguel.econ.berkeley.edu/">Ted Miguel</a>
+                    and
 
-                </li>
-                <li>
-Identity verification standards in welfare programs: experimental evidence from India (.bib). With Karthik Muralidharan and Sandip Sukhtankar
-How does requiring stricter, biometric ID trade off errors of inclusion and exclusion?
-                </li>
-                <li>
-General equilibrium effects of (improving) public employment programs (.bib; online appendix). Revise and resubmit, Econometrica. With Karthik Muralidharan and Sandip Sukhtankar
-How does offering large-scale public employment affect rural markets?
+                    <a href="http://www.michaelwwalker.me/">Michael Walker</a>
+                  </p>
+                  <p class="description">
+                    How does an inflow of ~15% of GDP affect a poor rural
+                    economy?
+                  </p>
+                </article>
+              </li>
+              <li>
+                <article>
 
-                </li>
-              </ul>
-            </section>
-              <a href="https://www.bing.com">test</a>
-            </p>
-          </article>
+
+                <p class="title">
+                  <a href="papers/abba.pdf"
+                    >Identity verification standards in welfare programs:
+                    experimental evidence from India</a
+                  >
+                  <sup>(<a href="papers/abba.bib">.bib</a>).</sup>
+                </p>
+                <p class="authors">
+                  With
+                  <a href="http://econ.ucsd.edu/~kamurali/"
+                    >Karthik Muralidharan</a
+                  >
+                  and
+                  <a href="http://faculty.virginia.edu/sandip/"
+                    >Sandip Sukhtankar</a
+                  >
+                </p>
+                <p class="description">
+                  How does requiring stricter, biometric ID trade off errors of
+                  inclusion and exclusion?
+                </p>
+
+                </article>
+              </li>
+              <li>
+                <article>
+
+                <p class="title">
+                  <a href="papers/SmartcardsGE.pdf"
+                    >General equilibrium effects of (improving) public
+                    employment programs
+                </p>
+                  </a>
+                  <sup>
+                    (<a href="papers/SmartcardsGE.bib">.bib</a>;
+                    <a href="papers/SmartcardsGE_appendix.pdf"
+                      >online appendix</a
+                    >).</sup
+                  >
+                  <p class="status">Revise and resubmit, Econometrica.</p>
+                  <p class="authors">
+                  With
+                  <a href="http://econ.ucsd.edu/~kamurali/"
+                    >Karthik Muralidharan</a
+                  >
+                  and
+                  <a href="http://faculty.virginia.edu/sandip/"
+                    >Sandip Sukhtankar</a
+                  >
+                  </p>
+                <p>
+                  How does offering large-scale public employment affect rural
+                  markets?
+                </p>
+
+                </article>
+              </li>
+            </ul>
+          </section>
+          <section >
+            <h2>publications</h2>
+            <ul class="list">
+              <li>
+                <article>
+                  <p class="title">
+                  <a href="papers/persuasion.pdf">Pathways of persuasion</a>
+                 <sup> (<a href="papers/persuasion.bib">.bib</a>).</sup>
+
+                  </p>
+                  <p class="status"
+                    >Forthcoming, Games and Economic Behavior</p>
+                  <p class="authors"> With <a href="https://sites.google.com/site/lucascoffman/"
+                    >Lucas Coffman</a
+                  >.
+                  </p>
+                  What are the roles of self-interest and other-regard in
+                  persuasion? (<a
+                    href="https://www.dropbox.com/s/ixs5h7xrtwgfdzq/AllInstructions.pdf?dl=1"
+                    >experimental instructions</a
+                  >).
+                
+                </article>
+              </li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </section>
         </div>
       </main>
 
@@ -75,7 +206,7 @@ How does offering large-scale public employment affect rural markets?
             >
           </li>
           <li>
-            <a href="/files/cv.pdf">
+            <a href="/cv.pdf">
               <i class="fas fa-file-pdf"></i>
               CV</a
             >
@@ -87,7 +218,7 @@ How does offering large-scale public employment affect rural markets?
             >
           </li>
           <li>
-            <a href="/files/bio.pdf">
+            <a href="/bio.pdf">
               <i class="fas fa-file-pdf"></i>
               Bio</a
             >
@@ -101,5 +232,6 @@ How does offering large-scale public employment affect rural markets?
         </ul>
       </footer>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
