@@ -1,8 +1,11 @@
 .company {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 302px 2fr;
   align-items: center;
   justify-content: center;
+}
+.company p {
+  padding-left: 0.5rem;
 }
 @media only screen and (max-width: 600px) {
   .company {
