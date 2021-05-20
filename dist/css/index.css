@@ -13,12 +13,12 @@ body {
 a {
   text-decoration: none;
 }
-p a {
+.container a {
   text-decoration: underline;
   font-weight: 600;
   color: #000099;
 }
-p a:hover {
+a:hover {
   color: cornflowerblue;
 }
 
@@ -36,8 +36,6 @@ footer ul {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-footer li {
 }
 footer a {
   color: #000;
@@ -95,8 +93,6 @@ footer i {
 }
 .container {
   display: grid;
-  grid-template-columns: 420px 1fr;
-  justify-items: center;
   padding: 1rem;
 }
 .body {

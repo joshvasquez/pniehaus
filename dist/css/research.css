@@ -1,3 +1,12 @@
-.paperslist ul {
+.list {
   list-style-type: none;
+  line-height: 1.4rem;
+  padding-bottom: 1rem;
+}
+.list li {
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 0.75rem;
+  padding-top: 0.75rem;
+  padding-left: 2.5rem;
+  max-width: 75ch;
 }
