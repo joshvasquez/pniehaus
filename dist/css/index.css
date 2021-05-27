@@ -97,18 +97,16 @@ footer i {
 .navbutton a {
   color: #818181;
   font-size: 1.2rem;
-  transition: 100ms linear;
   padding-bottom: 5px;
 }
 
 .navbutton a:hover {
-  display: block;
   color: #333;
   color: cornflowerblue;
 }
 .active a {
   color: black;
-  /* border-bottom: 1px solid black; */
+  border-bottom: 3px solid black;
 }
 .container {
   display: grid;
