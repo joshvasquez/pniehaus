@@ -37,16 +37,34 @@
       </nav>
       <main>
         <div class="container">
-          <aside>
-            <img src="images/paul-768px.jpg" alt="headshot of Paul Niehaus" />
+          <aside class="headshot">
+            <picture>
+              <source
+                media="(min-width: 769px)"
+                srcset="images/paul-portrait.jpg"
+              />
+              <source
+                media="(min-width: 600px)"
+                srcset="images/paul-768px.jpg"
+              />
+              <source
+                media="(min-width: 480px)"
+                srcset="images/paul-600px.jpg"
+              />
+              <source
+                media="(min-width: 320px)"
+                srcset="images/paul-480px.jpg"
+              />
+              <img src="OtherImage.png" alt="headshot of Paul Niehaus" />
+            </picture>
           </aside>
           <article class="bio">
-            <p>
+            <h2 class="headline">
               As an economist, Paul studies the design and implementation of
               programs to accelerate the end of extreme poverty. As an
               entrepreneur, he works to amplify capital flows to emerging
               markets.
-            </p>
+            </h2>
 
             <p>
               Paul serves as an associate professor of economics at UC San Diego

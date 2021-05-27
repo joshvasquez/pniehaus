@@ -1,8 +1,29 @@
+.headline {
+  font-weight: 700;
+  padding-bottom: 2rem;
+}
 .container {
-  grid-template-columns: 420px 1fr;
-  padding: 1rem;
+  grid-template-columns: 12fr 9fr;
+  padding: 2rem;
+  padding: 2rem;
+}
+.bio {
+  padding-left: 2rem;
+}
+.bio p {
+}
+.headshot {
+  width: 100%;
+}
+@media screen and (max-width: 600px) {
+  .bio {
+    padding-left: 0;
+  }
 }
 @media screen and (max-width: 768px) {
+  .bio {
+    padding-left: 0;
+  }
   article {
     padding-top: 1.5rem;
   }
