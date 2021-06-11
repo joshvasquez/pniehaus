@@ -6,32 +6,27 @@
   padding: 1rem;
 }
 .list li {
-  border-bottom: 1px solid #efefef;
-  padding-bottom: 0.75rem;
-  padding-top: 0.75rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
   /* padding-left: 2.5rem; */
-  max-width: 75ch;
 }
 
 .status {
   font-style: italic;
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: #6600cc;
 }
-/* .status::before { */
-/*   content: "status: "; */
-/* } */
 .title {
-  font-size: 1.15rem;
+  font-size: 1rem;
 }
 .authors {
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 .description {
   font-size: 1rem;
 }
 .dls {
-  font-size: 0.7rem;
+  font-size: 1rem;
 }
 section {
   width: 100%;
@@ -42,9 +37,6 @@ section {
   padding: 2rem;
 }
 
-.span-2 {
-  /* grid-column: span 2; */
-}
 @media screen and (max-width: 600px) {
   .container {
     grid-template-columns: 1fr;

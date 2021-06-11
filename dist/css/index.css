@@ -27,8 +27,8 @@ a {
   text-decoration: none;
 }
 .container a {
-  text-decoration: underline;
   color: #000099;
+  text-decoration: underline;
 }
 a:visited {
   color: darkmagenta;
@@ -39,18 +39,14 @@ a:hover {
 
 footer {
   width: 100%;
-  padding: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin-bottom: 3rem;
 }
 footer ul {
   list-style-type: none;
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 footer a {
   color: #000;
@@ -121,7 +117,6 @@ img {
   height: auto;
 }
 p {
-  max-width: 75ch;
   font-size: 1rem;
   line-height: 1.5rem;
 }
@@ -227,4 +222,9 @@ p {
     display: grid;
     grid-template-columns: 1fr;
   }
+}
+
+.fl a {
+  text-decoration: none;
+  color: black;
 }
